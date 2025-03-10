@@ -12,6 +12,9 @@ def draw_triangle(points, color, t):
     t.end_fill()
 
 def get_mid(p1, p2):
+    """
+    return the mid point
+    """
     return ((p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2)
 
 def sierpinski(points, degree, t):
@@ -38,7 +41,7 @@ t.speed(0)
 turtle.bgcolor("black")
 
 # Initial triangle
-points = [(-200, -100), (0, 200), (200, -100)]
+points = [(-100, -100), (0, 100), (100, -100)]
 sierpinski(points, 4, t)
 
 turtle.done()
