@@ -27,6 +27,6 @@ The triangle recursively divides into smaller triangles, creating a beautiful fr
 
 3. **Run the script**:
 
-   ```bash
+   ```sh
    python sierpinski.py
-
+   ```
